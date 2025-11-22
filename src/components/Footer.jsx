@@ -22,24 +22,28 @@ export const Footer = () => {
           </a>
         </div>
 
-        {/* SOCIAL ICONS */}
-        <div className="flex gap-4 text-white">
-          <a href="#" className="text-2xl hover:text-blue-400 transition-colors">
-            <i className="ri-github-fill"></i>
-          </a>
-          <a href="#" className="text-2xl hover:text-blue-400 transition-colors">
-            <i className="ri-instagram-fill"></i>
-          </a>
-          <a href="#" className="text-2xl hover:text-blue-400 transition-colors">
-            <i className="ri-reddit-fill"></i>
-          </a>
-          <a href="#" className="text-2xl hover:text-blue-400 transition-colors">
-            <i className="ri-youtube-fill"></i>
-          </a>
-        </div>
+       {/* SOCIAL ICONS  */}
+<div className="flex gap-4 text-white">
+  <a 
+    href="https://www.linkedin.com/in/victor-lim-putra-79188728a/?originalSubdomain=id" 
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-2xl hover:text-blue-400 transition-colors"
+  >
+    <i className="ri-linkedin-fill"></i> 
+  </a>
 
-      </div>
+  <a 
+    href="https://github.com/victorl711" 
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-2xl hover:text-blue-400 transition-colors"
+  >
+    <i className="ri-github-fill"></i> 
+  </a>
+</div>
+</div>
 
-    </div>
-  );
+</div>
+ );
 };

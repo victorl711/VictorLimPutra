@@ -199,7 +199,7 @@ function App() {
             data-aos-delay="300"
             data-aos-once="true"
           >
-            Berikut adalah beberapa hasil karya terpilih yang telah saya kerjakan.
+            Here are some of the projects I've done.
           </p>
         </div>
 
@@ -270,7 +270,7 @@ function App() {
           </h1>
           <div className="h-1.5 w-24 bg-[#7C4DFF] mx-auto rounded-full mb-6"></div>
           <p className="text-gray-400 max-w-xl mx-auto text-base/loose">
-            Tertarik bekerja sama atau sekadar ingin menyapa? Jangan ragu untuk mengirimkan pesan.
+           If you are interested in a collaboration or would like to discuss a project, please feel free to contact me.
           </p>
         </div>
 
