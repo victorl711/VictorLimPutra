@@ -8,10 +8,10 @@ function App() {
       <div className="hero grid lg:grid-cols-[1fr_400px] pt-10 xl:gap-0 gap-6 grid-cols-1 items-center">
         <div className="animate__animated animate__fadeInUp animate__delay-3s order-2 lg:order-1">
           <div className="flex space-x-2">
-          <div className="flex items-center gap-3 mb-6 bg-[#11243D] w-fit p-4 rounded-2xl border border-[#1E3B58]">
-            <p>product manager</p>
+          <div className="flex items-center gap-3 mb-6 text-[#9F7BFF] bg-[#11243D] hover:bg-[#7C4DFF]/20 w-fit p-4 rounded-2xl border border-[#7C4DFF]/50">
+            <p>Product Manager</p>
           </div>
-          <div className="flex items-center gap-3 mb-6 bg-[#11243D] w-fit p-4 rounded-2xl border border-[#1E3B58]">
+          <div className="flex items-center gap-3 mb-6 text-[#9F7BFF] bg-[#11243D] hover:bg-[#7C4DFF]/20 w-fit p-4 rounded-2xl border border-[#7C4DFF]/50">
             <p>Business Analyst</p>
           </div>
           </div>
@@ -26,11 +26,13 @@ function App() {
 
           {/* tombol */}
           <div className="flex items-center sm:gap-4 gap-2">
-            <a
-              href="#"
-              className="bg-[#7C4DFF] p-4 rounded-2xl hover:bg-[#9F7BFF] transition"
-            >
-              <i className="ri-download-line ri-lg"></i> Download CV
+           <a
+             href="https://drive.google.com/file/d/1VfxB_SpN6pv968msX7RpDso_9fFvmZMi/view" 
+              target="_blank" 
+              rel="noopener noreferrer"
+               className="bg-[#7C4DFF] p-4 rounded-2xl hover:bg-[#9F7BFF] transition"
+                >
+                   <i className="ri-eye-line"></i> View My CV
             </a>
 
             <a
