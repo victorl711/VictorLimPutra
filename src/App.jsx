@@ -319,7 +319,7 @@ function App() {
               <input
                 type="text"
                 name="name"
-                placeholder="Masukkan nama Anda"
+                placeholder="write your name here"
                 className="w-full bg-[#0A1A2F] border border-[#1E3B58] text-white rounded-lg p-3 focus:outline-none focus:border-[#7C4DFF] focus:ring-1 focus:ring-[#7C4DFF] transition-all"
                 required
               />
@@ -330,7 +330,7 @@ function App() {
               <input
                 type="email"
                 name="Email"
-                placeholder="Masukkan email Anda"
+                placeholder="Write your Email here"
                 className="w-full bg-[#0A1A2F] border border-[#1E3B58] text-white rounded-lg p-3 focus:outline-none focus:border-[#7C4DFF] focus:ring-1 focus:ring-[#7C4DFF] transition-all"
                 required
               />
@@ -342,7 +342,7 @@ function App() {
                 name="message"
                 id="message"
                 rows="5"
-                placeholder="Tuliskan pesan Anda di sini..."
+                placeholder="Write your message here.."
                 className="w-full bg-[#0A1A2F] border border-[#1E3B58] text-white rounded-lg p-3 focus:outline-none focus:border-[#7C4DFF] focus:ring-1 focus:ring-[#7C4DFF] transition-all resize-none"
                 required
               ></textarea>
