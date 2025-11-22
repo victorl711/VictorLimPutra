@@ -291,7 +291,7 @@ function App() {
                 <i className="ri-mail-send-line ri-xl"></i>
               </div>
               <div>
-                <p className="text-sm text-gray-400 mb-1">Email Saya</p>
+                <p className="text-sm text-gray-400 mb-1">My Email</p>
                 <p className="font-semibold text-white text-lg break-all">victorlim7112005@gmail.com</p>
               </div>
             </div>
@@ -301,7 +301,7 @@ function App() {
                 <i className="ri-map-pin-line ri-xl"></i>
               </div>
               <div>
-                <p className="text-sm text-gray-400 mb-1">Lokasi Saya</p>
+                <p className="text-sm text-gray-400 mb-1">My Location</p>
                 <p className="font-semibold text-white text-lg">Indonesia</p>
               </div>
             </div>
@@ -315,7 +315,7 @@ function App() {
             autoComplete="off"
           >
             <div className="flex flex-col gap-2">
-              <label className="text-sm font-medium text-gray-300">Nama Lengkap</label>
+              <label className="text-sm font-medium text-gray-300">Full Name</label>
               <input
                 type="text"
                 name="name"
@@ -337,7 +337,7 @@ function App() {
             </div>
 
             <div className="flex flex-col gap-2">
-              <label className="text-sm font-medium text-gray-300">Pesan</label>
+              <label className="text-sm font-medium text-gray-300">Message</label>
               <textarea
                 name="message"
                 id="message"
