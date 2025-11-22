@@ -11,7 +11,7 @@ import Tools2 from "/assets/tools/reactjs.png";
 import Tools3 from "/assets/tools/canva.png";
 import Tools4 from "/assets/tools/tailwind.png";
 import Tools5 from "/assets/tools/powerbi.png";
-import Tools6 from "/assets/tools/SmartPLS.png";
+import Tools6 from "/assets/tools/smartpls.png";
 import Tools7 from "/assets/tools/Java.png";
 import Tools8 from "/assets/tools/javaFX.png";
 import Tools9 from "/assets/tools/mendix.png";
