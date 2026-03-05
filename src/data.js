@@ -17,6 +17,8 @@ import Tools8 from "/assets/tools/javaFX.png";
 import Tools9 from "/assets/tools/mendix.png";
 import Tools10 from "/assets/tools/mysql.png";
 import Tools11 from "/assets/tools/figma.png";
+import Tools12 from "/assets/tools/rapidminer.png";
+import Tools13 from "/assets/tools/tableu.png";
 
 export const listTools = [
   { id: 1, gambar: Tools1, nama: "Visual Paradigm", ket: "System Modeling", dad: "100" },
@@ -30,6 +32,8 @@ export const listTools = [
   { id: 9, gambar: Tools9, nama: "Mendix", ket: "Low-Code Dev", dad: "900" },
   { id: 10, gambar: Tools10, nama: "MySQL", ket: "Database", dad: "1000" },
   { id: 11, gambar: Tools11, nama: "Figma", ket: "UI/UX Design", dad: "1100" },
+  { id: 12, gambar: Tools12, nama: "Rapid Miner (Altair Studio)", ket: "Statistical Analysis", dad: "1200" },
+  { id: 13, gambar: Tools13, nama: "Tableu", ket: "Data Visualization", dad: "1300" }
 ];
 
 import Proyek1 from "/assets/proyek/DineOrder.png";
