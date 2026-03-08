@@ -21,6 +21,9 @@ function App() {
         <div className="animate__animated animate__fadeInUp animate__delay-3s order-2 lg:order-1">
           <div className="flex space-x-2">
             <div className="flex items-center gap-3 mb-6 text-[#9F7BFF] bg-[#11243D] hover:bg-[#7C4DFF]/20 w-fit p-4 rounded-2xl border border-[#7C4DFF]/50">
+              <p>System Analyst</p>
+            </div>
+            <div className="flex items-center gap-3 mb-6 text-[#9F7BFF] bg-[#11243D] hover:bg-[#7C4DFF]/20 w-fit p-4 rounded-2xl border border-[#7C4DFF]/50">
               <p>Product Manager</p>
             </div>
             <div className="flex items-center gap-3 mb-6 text-[#9F7BFF] bg-[#11243D] hover:bg-[#7C4DFF]/20 w-fit p-4 rounded-2xl border border-[#7C4DFF]/50">

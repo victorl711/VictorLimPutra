@@ -29,7 +29,7 @@ export const listTools = [
   { id: 6, gambar: Tools6, nama: "SmartPLS", ket: "Statistical Analysis", dad: "600" },
   { id: 7, gambar: Tools7, nama: "Java", ket: "Programming Language", dad: "700" },
   { id: 8, gambar: Tools8, nama: "JavaFX", ket: "Dektop GUI", dad: "800" },
-  { id: 9, gambar: Tools9, nama: "Mendix", ket: "Low-Code Dev", dad: "900" },
+  // { id: 9, gambar: Tools9, nama: "Mendix", ket: "Low-Code Dev", dad: "900" },
   { id: 10, gambar: Tools10, nama: "MySQL", ket: "Database", dad: "1000" },
   { id: 11, gambar: Tools11, nama: "Figma", ket: "UI/UX Design", dad: "1100" },
   { id: 12, gambar: Tools12, nama: "Rapid Miner (Altair Studio)", ket: "Statistical Analysis", dad: "1200" },
@@ -43,6 +43,8 @@ import Proyek4 from "/assets/proyek/paperISAD.png";
 import Proyek5 from "/assets/proyek/BRM.png";
 import Proyek6 from "/assets/proyek/Oursmate.png";
 import Proyek7 from "/assets/proyek/BPA.png";
+import Proyek8 from "/assets/proyek/HaiDine.png";
+import Proyek9 from "/assets/proyek/WarungQ.png";
 
 
 export const listProyek = [
@@ -115,5 +117,25 @@ export const listProyek = [
     tools: ["Power BI", "Balanced Scorecard", "KPI Analysis", "Risk Management"],
     dad: "800",
     link: "https://drive.google.com/file/d/15v8oTduZ9acJNNvh9p_24c4RUXcBDuUz/view?usp=drive_link",
+  },
+{
+    id: 8,
+    gambar: Proyek8,
+    nama: "HaiDine: Hotpot Home Service System Analysis & Design",
+    kategori: "System Modeling",
+    desk: "A comprehensive system analysis and design for a premium hotpot delivery platform. This project involves end-to-end UML modeling, including Activity Diagrams, Use Case specifications, and Domain Model Class Diagrams to bridge the gap between business requirements and technical implementation",
+    tools: ["Visual Paradigm", "UML Modeling", "System Analysis", "Business Process Mapping"],
+    dad: "900",
+    link: "https://drive.google.com/file/d/1AQGrmAecJ7cZc9UfAS5NLxVvI_2hGVaZ/view?usp=sharing",
+  },
+{
+    id: 9,
+    gambar: Proyek9,
+    nama: "WarungQ: Advanced Culinary Management System",
+    kategori: "System Modeling",
+    desk: "An advanced end-to-end system design for 'WarungQ', a mobile platform optimizing SME operations. This project involves complex architectural modeling, including Three-Layer Sequence Diagrams, CRC Cards, and Database Design to bridge business requirements with robust technical implementation",
+    tools: ["Visual Paradigm", "UML Modeling", "System Architecture", "Database Design"],
+    dad: "1000",
+    link: " https://drive.google.com/file/d/1Hmk-C61Qnh0318KuzsslQPrUK4x3SBSZ/view?usp=sharing",
   },
 ];
